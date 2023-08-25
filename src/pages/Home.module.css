@@ -1,0 +1,10 @@
+:global(.container) {
+  width: 1200px;
+  margin: auto;
+}
+
+:global(.blue_section) {
+  padding-top: 10px;
+  background-color: #003580;
+  color: white;
+}

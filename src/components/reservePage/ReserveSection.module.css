@@ -1,0 +1,77 @@
+.datesReserveInfoDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.reserveInforDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.reserveInforDiv input {
+  padding: 1.3rem 1rem;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin-bottom: 0.7rem;
+}
+
+.selectRoomsDiv p {
+  margin: 0;
+}
+
+.roomList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.roomRightDiv input {
+  width: 1rem;
+  align-self: center;
+}
+
+.roomRightDiv {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.room {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkboxDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalBillDiv {
+  margin-top: 3rem;
+}
+
+.totalBillDiv select {
+  width: 20rem;
+  padding: 0.5rem 1rem;
+  margin-right: 3rem;
+  background-color: #efefef;
+  border-radius: 3px;
+}
+
+.totalBillDiv button {
+  border: none;
+  background-color: #0071c2;
+  color: white;
+  padding: 15px 35px;
+  font-weight: 600;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.totalBillDiv button:hover {
+  background-color: #3e95d3;
+}

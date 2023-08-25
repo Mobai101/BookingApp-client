@@ -1,0 +1,22 @@
+.flexContainer {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.priceDiv {
+  padding: 1rem;
+  background-color: #ebf3ff;
+  width: 50rem;
+  height: 8rem;
+  font-size: 1.8rem;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.night {
+  font-weight: 300;
+}

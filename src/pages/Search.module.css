@@ -1,0 +1,17 @@
+:global(.container) {
+  width: 1200px;
+  margin: auto;
+}
+
+:global(.blue_section) {
+  padding-top: 10px;
+  background-color: #003580;
+  color: white;
+}
+
+:global(.flex_container) {
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}

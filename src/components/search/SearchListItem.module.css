@@ -1,0 +1,106 @@
+/* general */
+.search_card {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #d9d9d9;
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+
+/* left div */
+.search_card img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+/* middle div */
+.middle_flex_div a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0e72c2;
+}
+
+.middle_flex_div .tag {
+  background-color: #4ea153;
+  display: inline-block;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+.middle_flex_div p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.middle_flex_div h5 {
+  font-weight: 700;
+}
+
+.free_cancel_bold {
+  color: #4ea153;
+  font-weight: 700;
+}
+
+.free_cancel {
+  color: #4ea153;
+}
+
+/* right div */
+.right_flex_div {
+  margin-left: auto;
+  min-width: 170px;
+  width: 180px;
+  position: relative;
+}
+
+.rating_div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.rating_div span {
+  background-color: #003580;
+  color: white;
+  padding: 0rem 0.5rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.price_div {
+  text-align: end;
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+
+.price_div h2 {
+  font-weight: 400;
+}
+
+.price_div h6 {
+  font-weight: 500;
+}
+
+.right_flex_div button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  border: none;
+  background-color: #0071c2;
+  color: white;
+  font-weight: 700;
+  border-radius: 7px;
+}
+
+.right_flex_div button:hover {
+  background-color: #3e95d3;
+}

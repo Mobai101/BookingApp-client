@@ -1,0 +1,40 @@
+.transactionTable {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.transactionTable th {
+  background-color: #32a4c1;
+  color: white;
+  padding: 0.8rem 0.5rem;
+  border: 1px solid #cacaca;
+}
+
+.transactionTable td {
+  border: 1px solid #cacaca;
+  padding: 0.5rem;
+}
+
+.transactionTable tr:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+
+.transactionTable td span {
+  color: #4d985d;
+  padding: 0.3rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.Booked {
+  background-color: #f69685;
+}
+
+.CheckIn {
+  background-color: #39d139;
+}
+
+.CheckOut {
+  background-color: #d3d0f2;
+}
